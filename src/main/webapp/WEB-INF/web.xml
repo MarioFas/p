@@ -29,6 +29,11 @@
   -->
   </security-constraint>
   
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error/500.html</location>
+  </error-page>
+  
   <security-role>
   	<role-name>administrator</role-name>
   </security-role>
